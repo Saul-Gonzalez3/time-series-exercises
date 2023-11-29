@@ -60,6 +60,7 @@ def acquire_planets_df():
             count -= 1
         else:
             break
+        
     return df2
 
 ----------------------------------------------------
