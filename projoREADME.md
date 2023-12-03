@@ -1,21 +1,28 @@
 # <a name="top"></a>Life, Liberty, and the Pursuit of Freedom from Credit Card Fraud
 
 by Saul Gonzalez
+
 =============================
 
 > *The challenge for capitalism is that the things that breed trust also breed the environment for fraud.*
  - James Surowiecki
+ 
 =============================
-[Project Plan](#Project Plan) | [Data Dictionary](#Data Dictionary) | [Project Plan](#Project Plan) | [Conclusions](#Conclusions) | [Next Steps](#Next Steps) | [Recommendations](#Recommendations) | [Steps to Reproduce Our Work](#Steps to Reproduce Our Work) |
+
+[Project Plan](#Project Plan)|[Data Dictionary](#Data Dictionary)|[Project Plan](#Project Plan)|[Conclusions](#Conclusions)|[Next Steps](#Next Steps)|[Recommendations](#Recommendations)|[Steps to Reproduce Our Work](#Steps to Reproduce Our Work)|
+
 =============================
+
 ###Project Description:  
 
 This project contains the findings of research derived from the utilization of machine learning modeling using regression modeling to determine the highest drivers, or indicators that help predict credit card fraud.
     
 =============================
+
 ###Project Goal:  Predict credit card fraud while incorporating unsupervised machine learning learning techniques that can consistently and accurately detect potentially fraudulent transactions on unseen data.
 
 =============================
+
 ###Preliminary Questions:
 
 1. Are any of the features correlated? 
@@ -29,6 +36,7 @@ This project contains the findings of research derived from the utilization of m
 5. Are all input variables relevant? Which ones are <b>MOST</b> relevant? 
 
 =============================
+
 ###<a name="Project Plan"></a>Project Plan:
 
 1. Create all the files needed to make a functioning project (.py and .ipynb files).
@@ -50,8 +58,11 @@ This project contains the findings of research derived from the utilization of m
 9. Add important finding to the final notebook.
 
 10. Create csv file of test predictions on best performing model.
+
 [[Back to top](#top)]
+
 =============================
+
 ###<a name="Data Dictionary"></a>Data Dictionary:
 These variables were based on physicochemical tests. Physicochemical tests are: tests that evaluate the materials of the container component or system to ensure purity and the absence of harmful contaminants or residuals from the manufacturing process.
 |**Input Variables**|**Description**|
@@ -66,8 +77,11 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 | intended_balcon_amount | Initial transferred amount for application. Ranges between [−1, 108]. |
 | payment_type | Credit payment plan type. 5 possible (annonymized) values. |
 | zip_count_4w | Number of applications within same zip code in last 4 weeks. Ranges between [1, 5767]. |
+
 [[Back to top](#top)]
+
 =============================
+
 ###<a name="Conclusions"></a>Conclusions:
 
 <b>After acquiring & preparing the data, I conducted uni/bi/multi-variate exploration on the wine data to look at features and how they might impact the target 'quality'.
@@ -91,8 +105,11 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 - Generalized Linear Model (GLM)
 
 <b>We found that our Ordinary Least Squares model was the best performing model, showcasing a 12% average model prediction error on unseen data.
+    
 [[Back to top](#top)]
+    
 =============================
+    
 ###<a name="Next Steps"></a>Next Steps:
 
 - We would look at conducting this entire study without the use of clustering, using the same models, to compare results and observe the impact of clustering to the modeling results.
@@ -100,8 +117,11 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 - Furthermore, additional study on features for both red and white wines 'individually', given sufficient time, could prove insightful in determining the best drivers of quality for each colored wine.
     
 - Lastly, if there happens to be additional data that becomes available, it could prove useful as there are likely other outside features that contribute to wine quality (grape quality, climate grapes grown, fermentation process, etc.) that could be stronger drivers of quality not provided by our current data source.
+    
 [[Back to top](#top)]
+    
 =============================
+    
 ###<a name="Recommendations"></a>Recommendations:  
 
 - The data source showed a larger percentage of white wines produced compared to red wines, which could have produced a bias in the data that skewed the data. The data could be reduced to even out the differences between red and wines. 
@@ -109,8 +129,11 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 - There could be an issue with oxidation in the wines. The lower quality wines have lower amounts of sulphates, and we think that by increasing the amount of sulphates, the oxidation issues would be remedied and improve the quality of wines. 
         
 - Higher alcohol content is a major factor in the higher quality wines, specifically white wines. A two-fold effort can be enacted to maximize marketing towards white wine (where high quality is aplenty) and to chemically increase the alcohol while balancing the acidity to sufficiently improve quality in the red wines. 
+    
 [[Back to top](#top)]
+    
 =============================
+    
 ###<a name="Steps to Reproduce Our Work"></a>Steps to Reproduce Our Work:
 
 1. Clone this repo.
@@ -120,4 +143,5 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 3. Put the data in the file containing the cloned repo.
 
 4. Run your notebook.
+    
 [[Back to top](#top)]
