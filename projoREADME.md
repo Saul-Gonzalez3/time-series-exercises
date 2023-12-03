@@ -5,25 +5,21 @@ by Saul Gonzalez
 =============================
 
 > *The challenge for capitalism is that the things that breed trust also breed the environment for fraud.*
- - James Surowiecki
+> > *James Surowiecki
  
-=============================
 
-[Project Plan](#Project Plan)|[Data Dictionary](#Data Dictionary)|[Project Plan](#Project Plan)|[Conclusions](#Conclusions)|[Next Steps](#Next Steps)|[Recommendations](#Recommendations)|[Steps to Reproduce Our Work](#Steps to Reproduce Our Work)|
+[Project Plan](#'Project Plan')|[Data Dictionary](#'Data Dictionary')|[Conclusions](#Conclusions)|[Next Steps](#'Next Steps')|[Recommendations](#Recommendations)|[Steps to Reproduce Our Work](#'Steps to Reproduce Our Work')|
 
-=============================
 
-###Project Description:  
+Project Description:  
 
 This project contains the findings of research derived from the utilization of machine learning modeling using regression modeling to determine the highest drivers, or indicators that help predict credit card fraud.
     
-=============================
 
-###Project Goal:  Predict credit card fraud while incorporating unsupervised machine learning learning techniques that can consistently and accurately detect potentially fraudulent transactions on unseen data.
+Project Goal:  Predict credit card fraud while incorporating unsupervised machine learning learning techniques that can consistently and accurately detect potentially fraudulent transactions on unseen data.
 
-=============================
 
-###Preliminary Questions:
+Preliminary Questions:
 
 1. Are any of the features correlated? 
 
@@ -35,9 +31,8 @@ This project contains the findings of research derived from the utilization of m
 
 5. Are all input variables relevant? Which ones are <b>MOST</b> relevant? 
 
-=============================
 
-###<a name="Project Plan"></a>Project Plan:
+<a name="Project Plan"></a>Project Plan:
 
 1. Create all the files needed to make a functioning project (.py and .ipynb files).
 
@@ -61,9 +56,8 @@ This project contains the findings of research derived from the utilization of m
 
 [[Back to top](#top)]
 
-=============================
 
-###<a name="Data Dictionary"></a>Data Dictionary:
+<a name="Data Dictionary"></a>Data Dictionary:
 These variables were based on physicochemical tests. Physicochemical tests are: tests that evaluate the materials of the container component or system to ensure purity and the absence of harmful contaminants or residuals from the manufacturing process.
 |**Input Variables**|**Description**|
 |----------|----------------|
@@ -80,9 +74,9 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 
 [[Back to top](#top)]
 
-=============================
 
-###<a name="Conclusions"></a>Conclusions:
+
+<a name="Conclusions"></a>Conclusions:
 
 <b>After acquiring & preparing the data, I conducted uni/bi/multi-variate exploration on the wine data to look at features and how they might impact the target 'quality'.
 
@@ -108,9 +102,9 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
     
 [[Back to top](#top)]
     
-=============================
+
     
-###<a name="Next Steps"></a>Next Steps:
+<a name="Next Steps"></a>Next Steps:
 
 - We would look at conducting this entire study without the use of clustering, using the same models, to compare results and observe the impact of clustering to the modeling results.
 
@@ -120,9 +114,9 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
     
 [[Back to top](#top)]
     
-=============================
+
     
-###<a name="Recommendations"></a>Recommendations:  
+<a name="Recommendations"></a>Recommendations:  
 
 - The data source showed a larger percentage of white wines produced compared to red wines, which could have produced a bias in the data that skewed the data. The data could be reduced to even out the differences between red and wines. 
     
@@ -132,9 +126,9 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
     
 [[Back to top](#top)]
     
-=============================
+
     
-###<a name="Steps to Reproduce Our Work"></a>Steps to Reproduce Our Work:
+<a name="Steps to Reproduce Our Work"></a>Steps to Reproduce Our Work:
 
 1. Clone this repo.
 
