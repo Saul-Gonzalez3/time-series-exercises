@@ -8,7 +8,7 @@ by Saul Gonzalez
 > > *James Surowiecki
  
 
-[Project Plan](#'Project Plan')|[Data Dictionary](#'Data Dictionary')|[Conclusions](#Conclusions)|[Next Steps](#'Next Steps')|[Recommendations](#Recommendations)|[Steps to Reproduce Our Work](#'Steps to Reproduce Our Work')|
+[Project Plan](#Project_Plan)|[Data Dictionary](#Data_Dictionary)|[Conclusions](#Conclusions)|[Next Steps](#Next_Steps)|[Recommendations](#Recommendations)|[Steps to Reproduce Our Work](#Steps_to_Reproduce_Our_Work)|
 
 
 Project Description:  
@@ -139,3 +139,4 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 4. Run your notebook.
     
 [[Back to top](#top)]
+
