@@ -2,37 +2,36 @@
 
 by Saul Gonzalez
 
-=============================
 
 > *The challenge for capitalism is that the things that breed trust also breed the environment for fraud.*
 > > *James Surowiecki
  
 
-[Project Plan](#Project_Plan)|[Data Dictionary](#Data_Dictionary)|[Conclusions](#Conclusions)|[Next Steps](#Next_Steps)|[Recommendations](#Recommendations)|[Steps to Reproduce Our Work](#Steps_to_Reproduce_Our_Work)|
+[Project Plan](#Project_Plan) | [Data Dictionary](#Data_Dictionary) | [Conclusions](#Conclusions) | [Next Steps](#Next_Steps) | [Recommendations](#Recommendations) | [Steps to Reproduce Our Work](#Steps_to_Reproduce_Our_Work)|
 
 
-Project Description:  
+<b>Project Description</b>:  
 
 This project contains the findings of research derived from the utilization of machine learning modeling using regression modeling to determine the highest drivers, or indicators that help predict credit card fraud.
     
 
-Project Goal:  Predict credit card fraud while incorporating unsupervised machine learning learning techniques that can consistently and accurately detect potentially fraudulent transactions on unseen data.
+<b>Project Goal</b>:  Predict credit card fraud while incorporating unsupervised machine learning learning techniques that can consistently and accurately detect potentially fraudulent transactions on unseen data.
 
 
 Preliminary Questions:
 
 1. Are any of the features correlated? 
 
-2. Does device_os show a liability for credit card fraud due to the percentage of fraud attributed to they type of device_os?
+2. Does <b>device_os</b> show a liability for credit card fraud due to the percentage of fraud attributed to they type of device_os?
 
-3. Does zip_count_4w show a trend of credit card fraud attributed to specific locations?
+3. Does <b>zip_count_4w</b> show a trend of credit card fraud attributed to specific locations?
 
 4. Classification or regression? Should I do both for a comparison given the time I have to work on this?
 
 5. Are all input variables relevant? Which ones are <b>MOST</b> relevant? 
 
 
-<a name="Project Plan"></a>Project Plan:
+<a name="Project Plan"></a><b>Project Plan</b>:
 
 1. Create all the files needed to make a functioning project (.py and .ipynb files).
 
@@ -46,7 +45,7 @@ Preliminary Questions:
 
 6. Answer all the questions with statistical testing.
 
-7. Identify drivers of credit card fraud. Make prediction of wine quality using driving features of quality.
+7. Identify drivers of credit card fraud. Make prediction of credit card fraud using driving features found during exploration and statistical testing.
 
 8. Document findings.
 
@@ -57,7 +56,7 @@ Preliminary Questions:
 [[Back to top](#top)]
 
 
-<a name="Data Dictionary"></a>Data Dictionary:
+<a name="Data Dictionary"></a><b>Data Dictionary</b>:
 These variables were based on physicochemical tests. Physicochemical tests are: tests that evaluate the materials of the container component or system to ensure purity and the absence of harmful contaminants or residuals from the manufacturing process.
 |**Input Variables**|**Description**|
 |----------|----------------|
@@ -76,13 +75,13 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 
 
 
-<a name="Conclusions"></a>Conclusions:
+<a name="Conclusions"></a><b>Conclusions</b>:
 
-<b>After acquiring & preparing the data, I conducted uni/bi/multi-variate exploration on the wine data to look at features and how they might impact the target 'quality'.
+After acquiring & preparing the data, I conducted uni/bi/multi-variate exploration on the wine data to look at features and how they might impact the target 'quality'.
 
-<b>We paired various features together and used clustering to observe potential relationships between the features.
+We paired various features together and used clustering to observe potential relationships between the features.
      
-<b>The results of our data exploration culminated in the resulting clusters and features being selected to go into regression modeling:
+The results of our data exploration culminated in the resulting clusters and features being selected to go into regression modeling:
 
 - Wine Color
 - Chlorides
@@ -91,22 +90,22 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
 - Clustering of Free Sulfur Dioxide and Total Sulfur Dioxide
 - Volatile Acidity and Density
 
-<b>We chose to go with regression modeling due to all of our features being continuous. 
+I chose to go with regression modeling due to all of our features being continuous. 
 
-<b>We used the following regression models:
+I used the following regression models:
 - Ordinary Least Squares (OLS)
 - LassoLars
 - Generalized Linear Model (GLM)
 
-<b>We found that our Ordinary Least Squares model was the best performing model, showcasing a 12% average model prediction error on unseen data.
+I found that our Ordinary Least Squares model was the best performing model, showcasing a 12% average model prediction error on unseen data.
     
 [[Back to top](#top)]
     
 
     
-<a name="Next Steps"></a>Next Steps:
+<a name="Next Steps"></a><b>Next Steps</b>:
 
-- We would look at conducting this entire study without the use of clustering, using the same models, to compare results and observe the impact of clustering to the modeling results.
+- I would look at conducting this entire study without the use of clustering, using the same models, to compare results and observe the impact of clustering to the modeling results.
 
 - Furthermore, additional study on features for both red and white wines 'individually', given sufficient time, could prove insightful in determining the best drivers of quality for each colored wine.
     
@@ -116,7 +115,7 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
     
 
     
-<a name="Recommendations"></a>Recommendations:  
+<a name="Recommendations"></a><b>Recommendations</b>:  
 
 - The data source showed a larger percentage of white wines produced compared to red wines, which could have produced a bias in the data that skewed the data. The data could be reduced to even out the differences between red and wines. 
     
@@ -128,7 +127,7 @@ These variables were based on physicochemical tests. Physicochemical tests are: 
     
 
     
-<a name="Steps to Reproduce Our Work"></a>Steps to Reproduce Our Work:
+<a name="Steps to Reproduce Our Work"></a><b>Steps to Reproduce Our Work</b>:
 
 1. Clone this repo.
 
