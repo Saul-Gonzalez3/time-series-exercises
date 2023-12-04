@@ -9,15 +9,15 @@ by Saul Gonzalez
 
 [Project Plan](#Project_Plan) | [Data Dictionary](#Data_Dictionary) | [Conclusions](#Conclusions) | [Next Steps](#Next_Steps) | [Recommendations](#Recommendations) | [Steps to Reproduce Our Work](#Steps_to_Reproduce_Our_Work)|
 
-
+***
 <h3><b>Project Description:</b></h3>  
 
 This project contains the findings of research derived from the utilization of machine learning modeling using regression modeling to determine the highest drivers, or indicators that help predict credit card fraud.
     
-
+***
 <h3><b>Project Goal:</b></h3>  Predict credit card fraud while incorporating unsupervised machine learning learning techniques that can consistently and accurately detect potentially fraudulent transactions on unseen data.
 
-
+***
 <h4><b>Preliminary Questions:</b></h4>
 
 1. Are any of the features correlated? 
