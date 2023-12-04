@@ -4,7 +4,7 @@ by Saul Gonzalez
 
 
 > *The challenge for capitalism is that the things that breed trust also breed the environment for fraud.*
-> > *James Surowiecki
+> > James Surowiecki
  
 
 [Project Plan](#Project_Plan) | [Data Dictionary](#Data_Dictionary) | [Conclusions](#Conclusions) | [Next Steps](#Next_Steps) | [Recommendations](#Recommendations) | [Steps to Reproduce Our Work](#Steps_to_Reproduce_Our_Work)|
@@ -31,7 +31,7 @@ This project contains the findings of research derived from the utilization of m
 5. Are all input variables relevant? Which ones are <b>MOST</b> relevant? 
 
 
-<a name="Project Plan"></a><h3><b>Project Plan:</b></h3>
+<a name="Project_Plan"></a><h3><b>Project Plan:</b></h3>
 
 1. Create all the files needed to make a functioning project (.py and .ipynb files).
 
@@ -56,7 +56,7 @@ This project contains the findings of research derived from the utilization of m
 [[Back to top](#top)]
 
 
-<a name="Data Dictionary"></a><h3><b>Data Dictionary:</b></h3>
+<a name="Data_Dictionary"></a><h3><b>Data Dictionary:</b></h3>
 These variables were based on physicochemical tests. Physicochemical tests are: tests that evaluate the materials of the container component or system to ensure purity and the absence of harmful contaminants or residuals from the manufacturing process.
 |**Input Variables**|**Description**|
 |----------|----------------|
@@ -103,7 +103,7 @@ I found that our Ordinary Least Squares model was the best performing model, sho
     
 
     
-<a name="Next Steps"></a><h3><b>Next Steps:</b></h3>
+<a name="Next_Steps"></a><h3><b>Next Steps:</b></h3>
 
 - I would look at conducting this entire study without the use of clustering, using the same models, to compare results and observe the impact of clustering to the modeling results.
 
@@ -127,7 +127,7 @@ I found that our Ordinary Least Squares model was the best performing model, sho
     
 
     
-<a name="Steps to Reproduce Our Work"></a><h3><b>Steps to Reproduce Our Work:</b></h3>
+<a name="Steps_to_Reproduce_Our_Work"></a><h3><b>Steps to Reproduce Our Work:</b></h3>
 
 1. Clone this repo.
 
